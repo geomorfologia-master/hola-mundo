@@ -1,4 +1,4 @@
-Prácticas de desarrollo 1. Hola Mundo<small><br>Geomorfología
+Práctica de desarrollo 1. PD01. Hola Mundo<small><br>Geomorfología
 (GEO-131)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre
 2024-02</small>
 ================
@@ -249,6 +249,7 @@ Sigue los siguientes pasos recomendados:
 
 ![](qr-video-tutorial.jpg)
 
-- [Invitación de GitHub Classroom de esta práctica]().
+- [Invitación de GitHub Classroom de esta
+  práctica](https://classroom.github.com/a/8b5Nk4vy).
 
 ![](qr-invitacion-gh-classroom.jpg)
