@@ -1,5 +1,5 @@
 Práctica de desarrollo 1. PD01. Hola Mundo<small><br>Geomorfología
-(GEO-131)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre
+(GEO-114)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre
 2024-02</small>
 ================
 El Tali
@@ -149,7 +149,9 @@ Sigue los siguientes pasos recomendados:
   te evalúe.
 - Lo que te funcione mejor, así de simple.
 
-2.  Verifica que eres miembro/a de la organización
+2.  Reproduce el [vídeo tutorial “Hola Mundo …”]().
+
+3.  Verifica que eres miembro/a de la organización
     <https://github.com/geomorfologia-202402>. Si iniciaste sesión en
     GitHub, al entrar a la URL de la organización, debería ver que eres
     miembro/a en la sección “People”. También puedes verlo en tu perfil
@@ -158,13 +160,11 @@ Sigue los siguientes pasos recomendados:
     la organización allí. De lo contrario, si no lo eres, pide que te
     envíe una invitación.
 
-3.  Acepta la invitación de GitHub Classroom de esta “Prácticas de
+4.  Acepta la invitación de GitHub Classroom de esta “Prácticas de
     desarrollo 1. Hola Mundo” (PD01).
 
-4.  Confirma que se creó tu repositorio en la organización
+5.  Confirma que se creó tu repositorio en la organización
     <https://github.com/geomorfologia-202402>.
-
-5.  Reproduce el [vídeo tutorial “Hola Mundo …”]().
 
 6.  Rellena las partes correspondientes en `mi-primer-manuscrito.Rmd`,
     siguiendo el mandato y el vídeo tutorial.
@@ -246,10 +246,3 @@ Sigue los siguientes pasos recomendados:
 ![](qr-tutorial1.jpg)
 
 - [Vídeo tutorial de esta práctica (PD01)]().
-
-![](qr-video-tutorial.jpg)
-
-- [Invitación de GitHub Classroom de esta
-  práctica](https://classroom.github.com/a/8b5Nk4vy).
-
-![](qr-invitacion-gh-classroom.jpg)
