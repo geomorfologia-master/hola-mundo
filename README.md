@@ -125,8 +125,8 @@ el archivo `mi-primer-manuscrito.Rmd` y también “tejerlo”):
 Tu repositorio de GitHub, subido a la organización
 <https://github.com/geomorfologia-202402>, conteniendo tanto el cuaderno
 RMarkdown reproducible editado por ti (`mi-primer-manuscrito.Rmd`), así
-como el archivo `entregable.pdf` que generarás “tejiendo” el referido
-cuaderno (más explicación en el vídeo tutorial).
+como el archivo `mi-primer-manuscrito.pdf` que generarás “tejiendo” el
+referido cuaderno (más explicación en el vídeo tutorial).
 
 # Procedimiento sugerido
 
@@ -149,39 +149,34 @@ Sigue los siguientes pasos recomendados:
   te evalúe.
 - Lo que te funcione mejor, así de simple.
 
-2.  Acepta la invitación de GitHub Classroom de esta “Prácticas de
+2.  Verifica que eres miembro/a de la organización
+    <https://github.com/geomorfologia-202402>. Si iniciaste sesión en
+    GitHub, al entrar a la URL de la organización, debería ver que eres
+    miembro/a en la sección “People”. También puedes verlo en tu perfil
+    de cuenta de GitHub, haciendo clic en tu avatar (en la página de
+    GitHub, derecha superior), ve a “Your organizations” y debería ver
+    la organización allí. De lo contrario, si no lo eres, pide que te
+    envíe una invitación.
+
+3.  Acepta la invitación de GitHub Classroom de esta “Prácticas de
     desarrollo 1. Hola Mundo” (PD01).
 
-3.  Confirma que se creó tu repositorio en la organización
+4.  Confirma que se creó tu repositorio en la organización
     <https://github.com/geomorfologia-202402>.
 
-4.  Reproduce el [vídeo tutorial “Hola Mundo …”]().
+5.  Reproduce el [vídeo tutorial “Hola Mundo …”]().
 
-5.  Rellena las partes correspondientes en `mi-primer-manuscrito.Rmd`,
+6.  Rellena las partes correspondientes en `mi-primer-manuscrito.Rmd`,
     siguiendo el mandato y el vídeo tutorial.
 
-6.  Teje para generar tu `entregable.pdf`. Hazlo periódicamente, no lo
-    dejes para al final.
+7.  Teje para generar tu `mi-primer-manuscrito.pdf`. Hazlo
+    periódicamente, no lo dejes para al final.
 
-7.  Identifícate para git (`git config ...`).
+8.  Identifícate para git (`git config ...`).
 
-8.  Haz *commit*\>*push*.
+9.  Haz *commit*\>*push*.
 
-9.  Revisa que tus cambios se subieron a tu repositorio en GitHub.
-
-## Enlaces
-
-- [Vídeo tutorial]().
-
-![](qr-video-tutorial.jpg)
-
-- [Invitación de GitHub Classroom de esta práctica]().
-
-![](qr-invitacion-gh-classroom.jpg)
-
-- [“Introducción a R”](https://geofis.shinyapps.io/tutorial1/)
-
-![](qr-tutorial1.jpg)
+10. Confirma que tus cambios se subieron a tu repositorio en GitHub.
 
 # Software, hardware y servicios (imprescindibles para esta práctica)
 
@@ -242,3 +237,18 @@ Sigue los siguientes pasos recomendados:
 - Overleaf.
 
 - Zotero Online.
+
+## Enlaces útiles
+
+- [Tutorial interactivo “Introducción a
+  R”](https://geofis.shinyapps.io/tutorial1/)
+
+![](qr-tutorial1.jpg)
+
+- [Vídeo tutorial de esta práctica (PD01)]().
+
+![](qr-video-tutorial.jpg)
+
+- [Invitación de GitHub Classroom de esta práctica]().
+
+![](qr-invitacion-gh-classroom.jpg)
