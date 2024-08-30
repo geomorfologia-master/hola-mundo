@@ -139,7 +139,7 @@ Sigue los siguientes pasos recomendados:
   - Usa inteligencia artificial para que te enseñe y que, al mismo tiempo, te evalúe.
   - Lo que te funcione mejor, así de simple.
 
-2. Reproduce el [vídeo tutorial "PD01. Hola Mundo"]().
+2. Reproduce el [vídeo tutorial "PD01. Hola Mundo"](https://drive.google.com/file/d/1om49HJ7ndANraUPuT5a5gYEZRlELMoXB/view?usp=drive_link).
 
 3. Inicia sesión en GitHub si aún no lo has hecho. Verifica que eres miembro/a de la organización, primero entrando en ella visitando esta URL: `r organizacion`. Al entrar, puedes verificar tu membresía en la sección `People`; si eres miembro/a, verás tu nombre de usuario listado allí. También puedes verlo en tu perfil de cuenta de GitHub, haciendo clic en tu avatar (en la página de GitHub, derecha superior), ve a `Your organizations` y deberías ver el nombre de la organización allí. Si verificas que no eres miembro/a, pídeme que te envíe una invitación.
 
@@ -244,4 +244,4 @@ Sigue los siguientes pasos recomendados:
 
 ![](qr-tutorial1.jpg)
 
-- [Vídeo tutorial de esta práctica (PD01)]().
+- [Vídeo tutorial de esta práctica (PD01)](https://drive.google.com/file/d/1om49HJ7ndANraUPuT5a5gYEZRlELMoXB/view?usp=drive_link).

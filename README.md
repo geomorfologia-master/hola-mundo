@@ -149,7 +149,8 @@ Sigue los siguientes pasos recomendados:
   te evalúe.
 - Lo que te funcione mejor, así de simple.
 
-2.  Reproduce el [vídeo tutorial “PD01. Hola Mundo”]().
+2.  Reproduce el [vídeo tutorial “PD01. Hola
+    Mundo”](https://drive.google.com/file/d/1om49HJ7ndANraUPuT5a5gYEZRlELMoXB/view?usp=drive_link).
 
 3.  Inicia sesión en GitHub si aún no lo has hecho. Verifica que eres
     miembro/a de la organización, primero entrando en ella visitando
@@ -300,4 +301,5 @@ Sigue los siguientes pasos recomendados:
 
 ![](qr-tutorial1.jpg)
 
-- [Vídeo tutorial de esta práctica (PD01)]().
+- [Vídeo tutorial de esta práctica
+  (PD01)](https://drive.google.com/file/d/1om49HJ7ndANraUPuT5a5gYEZRlELMoXB/view?usp=drive_link).
