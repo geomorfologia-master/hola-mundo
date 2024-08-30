@@ -12,6 +12,11 @@
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
 \usepackage{graphicx}
+\usepackage[backend=biber, style=apa, language=spanish]{biblatex}
+\addbibresource{references.bib}
+\usepackage{csquotes}
+\usepackage[rgb,html,cmyk]{xcolor}
+
 
 \title{TÍTULO EN ESPAÑOL \newline \textit{\large TÍTULO EN INGLÉS}}
 
@@ -107,7 +112,11 @@ también usar el foro en caso de ``tranque''.
   ESCRIBE AQUÍ LA SECCIÓN ``INTRODUCCIÓN''.
 \item
   INCLUYE REFERENCIAS BIBLIOGRÁFICAS. LA SECCIÓN ``INTRODUCCIÓN'' ES UN
-  BUEN LUGAR PARA ELLO.
+  BUEN LUGAR PARA ELLO. PARA CITAS DIRECTAS, USA
+  \textcite{ETIQUETA_BIBTEX} (EN EL VÍDEO TUTORIAL APARECE DE OTRA
+  MANERA, PERO USA ESTA MODALIDAD, POR SER MÁS SEGURA). INCLUYE LA CITA
+  ENTRE CORCHETES, \autocite{ETIQUETA_BIBTEX}, SI QUIERES QUE, EN EL PDF
+  TEJIDO, LA CITA APAREZCA ``(AUTOR, AÑO)''.
 \item
   INSERTA AQUÍ UNA FIGURA DE ARCHIVO (E.G. UN ÚNICO ARCHIVO, SÓLO UNO,
   QUE MUESTRE, AUNQUE SEA PARCIALMENTE, LO QUE ENTREGASTE EN LA PRÁCTICA
@@ -121,11 +130,15 @@ también usar el foro en caso de ``tranque''.
 \item
   ESCRIBE AQUÍ LA SECCIÓN ``MATERIALES Y MÉTODOS''.
 \item
+  INCLUYE REFERENCIAS BIBLIOGRÁFICAS. LA SECCIÓN ``MATERIALES Y
+  MÉTODOS'' ES TAMBIÉN UN BUEN LUGAR PARA ELLO. PARA CITAS DIRECTAS, USA
+  \textcite{ETIQUETA_BIBTEX} (EN EL VÍDEO TUTORIAL APARECE DE OTRA
+  MANERA, PERO USA ESTA MODALIDAD, POR SER MÁS SEGURA). INCLUYE LA CITA
+  ENTRE CORCHETES, \autocite{ETIQUETA_BIBTEX}, SI QUIERES QUE, EN EL PDF
+  TEJIDO, LA CITA APAREZCA ``(AUTOR, AÑO)''.
+\item
   INCLUYE AQUÍ LA TABLA DE DATOS DE FORMA ESTILIZADA, USANDO CÓDIGO DE R
   REPRODUCIBLE, COMANDO \texttt{knitr::kable}
-\item
-  INCLUYE REFERENCIAS BIBLIOGRÁFICAS. LA SECCIÓN ``MATERIALES Y
-  MÉTODOS'' ES TAMBIÉN UN BUEN LUGAR PARA ELLO.
 \end{itemize}
 
 \section{Resultados}\label{resultados}
@@ -152,14 +165,14 @@ también usar el foro en caso de ``tranque''.
   ESCRIBE AQUÍ LA SECCIÓN ``DISCUSIÓN''.
 \item
   SI LO DESEAS, INCLUYE AQUÍ REFERENCIAS BIBLIOGRÁFICAS. LA SECCIÓN
-  ``DISCUSIÓN'' ES TAMBIÉN UN BUEN LUGAR PARA ELLO.
+  ``DISCUSIÓN'' ES TAMBIÉN UN BUEN LUGAR PARA ELLO. PARA CITAS DIRECTAS,
+  USA \textcite{ETIQUETA_BIBTEX} (EN EL VÍDEO TUTORIAL APARECE DE OTRA
+  MANERA, PERO USA ESTA MODALIDAD, POR SER MÁS SEGURA). INCLUYE LA CITA
+  ENTRE CORCHETES, \autocite{ETIQUETA_BIBTEX}, SI QUIERES QUE, EN EL PDF
+  TEJIDO, LA CITA APAREZCA ``(AUTOR, AÑO)''.
 \end{itemize}
 
-\section*{Referencias}\label{referencias}
-\addcontentsline{toc}{section}{Referencias}
-
-\bibliographystyle{unsrt}
-\bibliography{references.bib}
+\printbibliography
 
 
 \end{document}

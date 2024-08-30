@@ -12,6 +12,11 @@
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
 \usepackage{graphicx}
+\usepackage[backend=biber, style=apa, language=spanish]{biblatex}
+\addbibresource{references.bib}
+\usepackage{csquotes}
+\usepackage[rgb,html,cmyk]{xcolor}
+
 
 \title{$title$}
 
@@ -130,8 +135,7 @@ $endif$
 
 $body$
 
-\bibliographystyle{$if(biblio-style)$$biblio-style$$else$unsrt$endif$}
-\bibliography{$bibliography$}
+\printbibliography
 
 $for(include-after)$
 $include-after$
