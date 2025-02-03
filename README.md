@@ -1,9 +1,9 @@
 Práctica de desarrollo 1. PD01. Hola Mundo<small><br>Geomorfología
 (GEO-114)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre
-2024-02</small>
+2025-01</small>
 ================
 El Tali
-2024-08-30
+2025-02-03
 
 Versión HTML (quizá más legible),
 [aquí](https://geomorfologia-master.github.io/hola-mundo/README.html)
@@ -19,7 +19,7 @@ desarrollo está configurado correctamente.
 
 # Fecha/hora de entrega
 
-**6 de septiembre de 2024, 11:59 pm.**
+**10 de febrero de 2025, 11:59 pm.**
 
 # Objetivos de aprendizaje
 
@@ -72,11 +72,12 @@ desarrollo está configurado correctamente.
 
 Realiza, en el cuaderno RMarkdown `mi-primer-manuscrito.Rmd` de tu
 propio repo clonado, el ejercicio de inferencia a partir de dos muestras
-apareadas de la [práctica de aula 2
-(PA02)](https://github.com/geomorfologia-master/mapa-geomorfologico-rd-y-elevaciones)
+apareadas de la [práctica de aula 1
+(PA01)](https://github.com/geomorfologia-master/mapa-geomorfologico-rd-y-elevaciones)
 usando las funciones de R al efecto, siguiendo un guión de manuscrito
 científico reproducible, que incluye lo siguiente (deberás rellenar en
-el archivo `mi-primer-manuscrito.Rmd` y también “tejerlo”):
+el archivo `mi-primer-manuscrito.Rmd`, así como también “tejerlo” y
+subirlo a GitHub):
 
 > En el archivo `mi-primer-manuscrito.Rmd`, coloqué mayúsculas allí
 > donde debes rellenar contenido.
@@ -104,10 +105,10 @@ el archivo `mi-primer-manuscrito.Rmd` y también “tejerlo”):
     reproducible. El código fuente debe quedar oculto en el PDF de
     salida.
 
-  - Al menos una figura de archivo (e.g. un único archivo, sólo uno, que
-    muestre, aunque sea parcialmente, lo que entregaste en la
-    práctica 02. si no tienes dicho archivo, puedes usar cualquier otro
-    archivo alegórico al tema o a la práctica).
+  - Al menos una figura de archivo, e.g. un único archivo, sólo uno, que
+    muestre, aunque sea parcialmente, lo que entregaste en la práctica
+    de aula 01 (PA01). Si no tienes dicho archivo, puedes usar cualquier
+    otro archivo alegórico al tema o a la práctica.
 
   - Al menos una tabla generada manualmente en Markdown. Por ejemplo,
     genera una tabla con los resultados de la prueba t de student.
@@ -123,7 +124,7 @@ el archivo `mi-primer-manuscrito.Rmd` y también “tejerlo”):
 # Entregable
 
 Tu repositorio de GitHub, subido a la organización
-<https://github.com/geomorfologia-202402>, conteniendo tanto el cuaderno
+<https://github.com/geomorfologia-202501>, conteniendo tanto el cuaderno
 RMarkdown reproducible editado por ti (`mi-primer-manuscrito.Rmd`), así
 como el archivo `mi-primer-manuscrito.pdf` que generarás “tejiendo” el
 referido cuaderno (más explicación en el vídeo tutorial).
@@ -154,7 +155,7 @@ Sigue los siguientes pasos recomendados:
 
 3.  Inicia sesión en GitHub si aún no lo has hecho. Verifica que eres
     miembro/a de la organización, primero entrando en ella visitando
-    esta URL: <https://github.com/geomorfologia-202402>. Al entrar,
+    esta URL: <https://github.com/geomorfologia-202501>. Al entrar,
     puedes verificar tu membresía en la sección `People`; si eres
     miembro/a, verás tu nombre de usuario listado allí. También puedes
     verlo en tu perfil de cuenta de GitHub, haciendo clic en tu avatar
@@ -182,7 +183,7 @@ Sigue los siguientes pasos recomendados:
     (PD01). Se creará un repositorio personalizado en la organización.
 
 6.  Confirma que se creó tu repositorio personalizado en la organización
-    <https://github.com/geomorfologia-202402>.
+    <https://github.com/geomorfologia-202501>.
 
 7.  Clona tu repositorio personalizado en el servidor RStudio. Para
     esto, deberás acceder con tus credenciales, las cuales te envié

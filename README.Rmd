@@ -1,18 +1,19 @@
 ---
-title: "Práctica de desarrollo 1. PD01. Hola Mundo<small><br>Geomorfología (GEO-114)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre 2024-02</small>"
+title: "Práctica de desarrollo 1. PD01. Hola Mundo<small><br>Geomorfología (GEO-114)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre 2025-01</small>"
 author: "El Tali"
 date: "`r format(Sys.Date(), '%Y-%m-%d')`"
 output:
-  # bookdown::github_document2:
-  #   number_sections: false
-  #   fig_caption: yes
-  bookdown::html_document2:
+  bookdown::github_document2:
     number_sections: false
-    code_folding: hide
     fig_caption: yes
-    md_extensions: "-fancy_lists"
-    toc: true
-    toc_depth: 3
+    keep_html: true
+  # bookdown::html_document2:
+  #   number_sections: false
+  #   code_folding: hide
+  #   fig_caption: yes
+  #   md_extensions: "-fancy_lists"
+  #   toc: true
+  #   toc_depth: 3
 editor_options: 
   chunk_output_type: console
 always_allow_html: true
@@ -37,11 +38,11 @@ if (grepl('gfm', output_format)) {
 } else if (output_format == 'latex') {
   cat('Versión HTML (quizá más legible), [aquí](', github_pages_url, ')\n', sep = '')
 }
-url_pa02 <- ifelse(
+url_pa01 <- ifelse(
   grepl('geomorfologia', repo_url),
   'https://github.com/geomorfologia-master/mapa-geomorfologico-rd-y-elevaciones',
   'https://github.com/biogeografia-master/dos-muestras-independientes-biometria')
-semestre <- '202402'
+semestre <- '202501'
 github_raiz <- 'https://github.com/'
 organizacion <- ifelse(
   grepl('geomorfologia', repo_url),
@@ -55,7 +56,7 @@ organizacion <- ifelse(
 
 # Fecha/hora de entrega
 
-**6 de septiembre de 2024, 11:59 pm.**
+**10 de febrero de 2025, 11:59 pm.**
 
 # Objetivos de aprendizaje
 
@@ -97,7 +98,7 @@ organizacion <- ifelse(
 
 # Mandato
 
-Realiza, en el cuaderno RMarkdown `mi-primer-manuscrito.Rmd` de tu propio repo clonado, el ejercicio de inferencia a partir de dos muestras apareadas de la [práctica de aula 2 (PA02)](`r url_pa02`) usando las funciones de R al efecto, siguiendo un guión de manuscrito científico reproducible, que incluye lo siguiente (deberás rellenar en el archivo `mi-primer-manuscrito.Rmd` y también "tejerlo"):
+Realiza, en el cuaderno RMarkdown `mi-primer-manuscrito.Rmd` de tu propio repo clonado, el ejercicio de inferencia a partir de dos muestras apareadas de la [práctica de aula 1 (PA01)](`r url_pa01`) usando las funciones de R al efecto, siguiendo un guión de manuscrito científico reproducible, que incluye lo siguiente (deberás rellenar en el archivo `mi-primer-manuscrito.Rmd`, así como también "tejerlo" y subirlo a GitHub):
 
 > En el archivo `mi-primer-manuscrito.Rmd`, coloqué mayúsculas allí donde debes rellenar contenido.
 
@@ -119,7 +120,7 @@ Realiza, en el cuaderno RMarkdown `mi-primer-manuscrito.Rmd` de tu propio repo c
 
   - Al menos un diagrama de caja generado por ti con código de R reproducible. El código fuente debe quedar oculto en el PDF de salida.
   
-  - Al menos una figura de archivo (e.g. un único archivo, sólo uno, que muestre, aunque sea parcialmente, lo que entregaste en la práctica 02. si no tienes dicho archivo, puedes usar cualquier otro archivo alegórico al tema o a la práctica).
+  - Al menos una figura de archivo, e.g. un único archivo, sólo uno, que muestre, aunque sea parcialmente, lo que entregaste en la práctica de aula 01 (PA01). Si no tienes dicho archivo, puedes usar cualquier otro archivo alegórico al tema o a la práctica.
   
   - Al menos una tabla generada manualmente en Markdown. Por ejemplo, genera una tabla con los resultados de la prueba t de student. Existen herramientas en línea para hacerlo; de hecho, el propio foro de la asignatura también es capaz de convertir tablas desde Excel a Markdown, basta con copiar desde la hoja de cálculo y pegar en la caja de mensajes del foro.
   
